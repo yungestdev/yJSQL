@@ -1,6 +1,3 @@
-Here is a `README.md` template for your `JSQL` class:
-
-```markdown
 # JSQL - JSON SQL-like Database
 
 `JSQL` is a lightweight SQL-like database system that stores data in a JSON file. It supports common database operations such as creating tables, inserting data, updating data, and querying data. Transactions and rollback functionality are also supported.
@@ -156,6 +153,3 @@ Feel free to submit issues or pull requests. Contributions are welcome!
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This template provides a structured overview of how to use the `JSQL` class, including its main methods, error handling, and example code snippets. Make sure to adjust the URLs and any project-specific details as needed.
