@@ -1,6 +1,6 @@
-# JSQL - JSON SQL-like Database
+# yJSQL - JSON SQL-like Database
 
-`JSQL` is a lightweight SQL-like database system that stores data in a JSON file. It supports common database operations such as creating tables, inserting data, updating data, and querying data. Transactions and rollback functionality are also supported.
+`yJSQL` is a lightweight SQL-like database system that stores data in a JSON file. It supports common database operations such as creating tables, inserting data, updating data, and querying data. Transactions and rollback functionality are also supported.
 
 ## Features
 
@@ -14,20 +14,20 @@
 
 ## Installation
 
-To install `JSQL`, simply clone this repository to your local machine:
+To install `yJSQL`, simply use pip on your local machine:
 
 ```bash
-git clone https://github.com/yourusername/JSQL.git
+pip install yJSQL
 ```
 
 ## Usage
 
 ### Initialization
 
-To use `JSQL`, initialize a `JSQL` object with the name of the database (a JSON file):
+To use `yJSQL`, initialize a `yJSQL` object with the name of the database (a JSON file):
 
 ```python
-from JSQL import JSQL
+from yJSQL import JSQL
 
 db = JSQL("my_database.json")
 ```
@@ -126,10 +126,10 @@ db.rollback()
 
 ### Handling Errors
 
-`JSQL` includes custom exceptions for error handling:
+`yJSQL` includes custom exceptions for error handling:
 
 ```python
-from JSQL.exceptions import TableNotFound, MissingField
+from yJSQL.exceptions import TableNotFound, MissingField
 
 try:
     db.insert("nonexistent_table", {"id": 1})
